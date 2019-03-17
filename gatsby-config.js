@@ -1,12 +1,12 @@
 module.exports = {
 	pathPrefix: `/blog`,
 	siteMetadata: {
-		title: `Vincent Colavin's Blog`,
+		title: `vcolavin`,
 		author: `Vincent Colavin`,
 		siteUrl: `https://vcolavin.com/blog`,
 		description: `Vincent's blog`,
 		social: {
-			twitter: 'twitter.com/vincentcolavin'
+			github: 'https://github.com/vcolavin'
 		}
 	},
 	plugins: [
@@ -57,8 +57,7 @@ module.exports = {
 				start_url: `/`,
 				background_color: `#ffffff`,
 				theme_color: `#663399`,
-				display: `minimal-ui`,
-				icon: `content/assets/gatsby-icon.png`
+				display: `minimal-ui`
 			}
 		},
 		`gatsby-plugin-offline`,
