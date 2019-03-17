@@ -3,7 +3,11 @@ module.exports = {
 	siteMetadata: {
 		title: `Vincent Colavin's Blog`,
 		author: `Vincent Colavin`,
-		siteUrl: `https://vcolavin.com/blog`
+		siteUrl: `https://vcolavin.com/blog`,
+		description: `Vincent's blog`,
+		social: {
+			twitter: 'twitter.com/vincentcolavin'
+		}
 	},
 	plugins: [
 		{
