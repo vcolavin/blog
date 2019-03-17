@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Mar 2019 01:09:54 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 17 Mar 2019 01:12:55 GMT</lastBuildDate><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//hi-folks/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//hi-folks/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
 Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
 right at the coast of the Semantics, a large language ocean. A small river named
@@ -113,7 +113,7 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
 &lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/52469/salty_egg.jpg&quot;
+    href=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/52469/salty_egg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -132,14 +132,14 @@ firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Chinese Salty Egg&quot;
         title=&quot;&quot;
-        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/4b3ab/salty_egg.jpg&quot;
-        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/f8bb1/salty_egg.jpg 148w,
-/static/8058f3f26913fea3b6a89a73344fe94a/900ac/salty_egg.jpg 295w,
-/static/8058f3f26913fea3b6a89a73344fe94a/4b3ab/salty_egg.jpg 590w,
-/static/8058f3f26913fea3b6a89a73344fe94a/78641/salty_egg.jpg 885w,
-/static/8058f3f26913fea3b6a89a73344fe94a/38a35/salty_egg.jpg 1180w,
-/static/8058f3f26913fea3b6a89a73344fe94a/d4d4c/salty_egg.jpg 1770w,
-/static/8058f3f26913fea3b6a89a73344fe94a/52469/salty_egg.jpg 2048w&quot;
+        src=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/4b3ab/salty_egg.jpg&quot;
+        srcset=&quot;/blog/static/8058f3f26913fea3b6a89a73344fe94a/f8bb1/salty_egg.jpg 148w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/900ac/salty_egg.jpg 295w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/4b3ab/salty_egg.jpg 590w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/78641/salty_egg.jpg 885w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/38a35/salty_egg.jpg 1180w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/d4d4c/salty_egg.jpg 1770w,
+/blog/static/8058f3f26913fea3b6a89a73344fe94a/52469/salty_egg.jpg 2048w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
     &lt;/span&gt;
