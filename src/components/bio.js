@@ -40,17 +40,20 @@ function Bio() {
 								borderRadius: `50%`
 							}}
 						/>
-						<p>
-							I'm a web developer and suicide crisis line
-							volunteer who lives in Portland Oregon, and also I
-							eat a lot of pasta. My pronouns are he/him.
+						<div>
 							<p>
-								<a href={github}>Here's my Github profile.</a>{' '}
+								I'm a web developer and suicide crisis line
+								volunteer who lives in Portland Oregon, and also
+								I eat a lot of pasta. My pronouns are he/him.
+								<br />
+								<a href={github}>
+									Here's my Github profile.
+								</a>{' '}
 								<a href="https://vcolavin.wordpress.com">
 									Here's my archived blog.
 								</a>
 							</p>
-						</p>
+						</div>
 					</div>
 				);
 			}}
