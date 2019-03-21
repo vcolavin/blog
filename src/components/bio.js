@@ -41,13 +41,13 @@ function Bio() {
 							}}
 						/>
 						<p>
-							<strong>{author}</strong> is a UI developer and
-							suicide crisis line volunteer who lives in Portland
-							Oregon, and also eats a lot of pasta.
+							I'm a web developer and suicide crisis line
+							volunteer who lives in Portland Oregon, and also I
+							eat a lot of pasta. My pronouns are he/him.
 							<p>
 								<a href={github}>Here's my Github profile.</a>{' '}
 								<a href="https://vcolavin.wordpress.com">
-									Here's my old blog.
+									Here's my archived blog.
 								</a>
 							</p>
 						</p>
