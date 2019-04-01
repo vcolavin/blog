@@ -4,7 +4,7 @@ date: '2019-03-31'
 description: 'An introduction to my interactive fiction project currently in development'
 ---
 
-I've been working on a project called Nature of the Beast for a little while, and although I feature it prominently in my [portfolio](https://vcolavin.com/temporary-portfolio) and other job-hunting material like cover letters, I don't have much a deep public-facing description of what it is. I've tersely called it an interactive fiction project inspired by the form of the Unix terminal interface and 70s and 80s text-based adventures like Zork, but I haven't done any deep dives.
+I've been working on a project called Nature of the Beast for a little while, and although I feature it prominently in my [portfolio](https://vcolavin.com/temporary-portfolio) and other job-hunting material like cover letters, I don't have much of a deep public-facing description of what it is. I've tersely called it an interactive fiction project inspired by the form of the Unix terminal interface and 70s and 80s text-based adventures like Zork, but I haven't done any deep dives.
 
 I've been reluctant to write about it more. In contrast, I spent a whole lot of time [blogging](https://vcolavin.wordpress.com/tag/forest/) about its unfinished spiritual predecessor, a rails-api project called [The Restful Forest](https://github.com/vcolavin/forest). I also TDD'd almost every feature because I wanted to impress potential employers. I overthought it and lost interest. I got lost in the weeds.
 
