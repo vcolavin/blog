@@ -36,7 +36,7 @@ function logThenWait(num) {
 
 The `logThenWait` function just accepts a number, prints it, and returns a promise which resolves in one second. If you're comfortable with JS promises, it is not unusual.
 
-Bringing all together is this:
+I brought it together with this `reduce`:
 
 ```javascript
 [1, 2, 3].reduce(
@@ -45,7 +45,7 @@ Bringing all together is this:
 );
 ```
 
-It's fairly dense chunk of code that took me some time to get used to. The principle of `reduce` is that it takes a list of things and turns into a single thing. In this case, we're taking a list of numbers and turning them into a single promise. It's a little weird because that single promise is the last in a chain made up of promises for each value in the initial.
+It's fairly dense chunk of code that took me some time to get used to. The principle of `reduce` is that it takes a list of things and turns into a single thing. In this case, we're taking a list of numbers and turning them into a single promise. It's a little weird because that single promise is the last in a chain made up of promises for each value in the initial array.
 
 We start with `Promise.resolve(null)`, which is passed into the reducer function. We create a new promise using `logThenWait` and return it. That new promise then gets passed to the reducer as the memo, and the process repeats with each item in the array.
 
