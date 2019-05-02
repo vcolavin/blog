@@ -1,7 +1,7 @@
 ---
 title: Coding Interview Questions I've Been Asked
 date: '2019-05-02'
-description: 'A compendium of code questions I've been asked. At least, the ones I can remember.'
+description: "A compendium of code questions I've been asked. At least, the ones I can remember."
 ---
 
 I'm coming towards the end of an interview cycle, and I thought I'd compile the code questions I've been asked over the years. At least, the ones I can remember. If and when I find myself interviewing again I'll update this list.
