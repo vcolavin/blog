@@ -28,7 +28,7 @@ These questions are all in JavaScript unless otherwise noted, but I was often gi
     })();
     ```
 
--   Write a function which accepts an array of strings and logs them out in order, with a one-second delay between them. I went over this in more detail in my [promise chaining](./promise-chaining) post.
+-   Write a function which accepts an array of strings and logs them out in order, with a one-second delay between them. I went over this in more detail in my [promise chaining](./../promise-chaining) post.
 -   Write a function which accepts an array of numbers and filters out the odds
 -   Assuming the `Array.prototype.filter` method doesn't exist, monkeypatch the Array prototype to create your own version called `filt`.
 -   Write a function which accepts a string and checks if it is a palindrome.
