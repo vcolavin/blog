@@ -1,10 +1,10 @@
 ---
 title: Was Trump's Election Somehow a Positive Thing?
 date: '2019-05-08'
-description: 'Trying to get my thoughts down.'
+description: 'A conversation I seem to keep having.'
 ---
 
-This blog post is my trying to encapsulate the gist of a conversation I've had a bunch of times. It often starts with a relitigation of whether it's in some way a good thing that Trump won in 2016. The argument is that, as a result of Trump's election, people are more awake to the racism in the US, and that anyways Clinton was also bad.
+This blog post is my trying to capture the gist of a conversation I've had a bunch of times. It often starts with a relitigation of whether it's in some way a good thing that Trump won in 2016. The argument is that, as a result of Trump's election, people are more awake to the racism in the US, and that anyways Clinton was also bad.
 
 I'm kind of tired of this conversation, so I want to be clear: While the USA / capitalism / structural racism is deeply bad and we _should_ fight to reform and restructure it at deep levels in order to promote justice, we should _also_ work within the system as needed, i.e., we should emphatically vote for the boring centrist if the alternative is a Nazi.
 
