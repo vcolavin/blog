@@ -1,6 +1,6 @@
 ---
 title: Was Trump's Election a Positive Thing?
-date: '2019-05-07'
+date: '2019-05-08'
 description: "We need to be distinct in our understanding between the world in which we live, and the world in which we'd like to live."
 ---
 

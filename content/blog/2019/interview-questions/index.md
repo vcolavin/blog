@@ -47,6 +47,8 @@ Mozilla mostly asked higher-level questions which don't require coding.
 -   What happens when you press 'enter' in the address bar?
 -   What are some things you might check for if you're auditing JavaScript code for security?
 -   What triggers a DOM repaint?
+-   What are the advantages and disadvantages of single page apps versus server-rendered apps.
+-   What is `undefined` in JavaScript?
 
 ## Periscopic (2017)
 
