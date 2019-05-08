@@ -14,9 +14,9 @@ Here's what I think is a useful translation, given the context:
 
 > The problem with slavery isn't that enslaved people are mistreated, it is that they are enslaved. At least the cruel slave owner is sincere. The kind one is dishonest, and doing nothing to solve the underlying problem while profiting from slavery. Worse, his behavior makes it easier to justify the institution of slavery, thus prolonging the injustice.
 
-While I see where this is coming from, I disagree. There's a certain strain of radicalism that rejects incremental change in favor of overthrowing the entire unjust system. This is an enticing idea, but practically, the insistence on revolution tends leaves the most vulnerable people up shit creek.
+While I see where this is coming from, I disagree. There's a tendency of radicalism that rejects incremental improvements entirely, in favor of overthrowing the entire unjust system. This is an enticing idea, but practically, this insistence on revolution tends to leave the most vulnerable people up shit creek.
 
-In other words, it would certainly be best if there were no unjust or oppressive systems (e.g. capitalism). That being said, as long as we exist within an unjust system, it is worthwhile to do the right thing to minimize the suffering of others, even if that minimization does not dismantle the unjust system. Further, I don't believe we'll ever be completely free of injustice, and we can't use the existence of injustice as a reason to not act righteously.
+In other words, I agree that it would certainly be best if there were no unjust or oppressive systems (e.g. capitalism, slavery). That being said, as long as we exist within an unjust system, it is worthwhile to do the to minimize the suffering of others, even if that minimization does not dismantle the unjust system. Further, I don't believe we'll ever be completely free of injustice, so we can't use the existence of injustice as a reason to not act righteously.
 
 In other other words, _why not both_?
 
@@ -28,7 +28,7 @@ Variations on this choice come up all the time in real life, so it's not just a 
 
 And somehow what I keep hearing is "well at least Trump is sincere". Well so was Hitler.
 
-There is something perversely refreshing about the overt racism of the Trumps and Dutertes and Bolsanaros of the world. These men say what they feel (not accounting for the tremendous amount of lying they tend to do). After years of the dishonest centrist neoliberalism of Reagan, the Bushes, the Clintons, and even Obama, it's nice to finally not be gaslit. Trump may be a misogynistic anti-semite, but at least he's pretty clear about it.
+There is something perversely refreshing about the overt racism of the Trumps and Dutertes and Bolsanaros of the world. These men say what they feel, not accounting for the tremendous amount of lying they tend to do. After years of the dishonest centrist neoliberalism of Reagan, the Bushes, the Clintons, and even Obama, it's nice to finally not be gaslit. Trump may be a misogynistic anti-semite, but at least he's pretty clear about it.
 
 And this isn't exclusively white bullshit: one of the most memorable and challenging scenes in [Accidental Courtesy](https://duckduckgo.com/?q=imdb+accidental+courtesy&t=ffab&ia=web) (which is itself a hugely challenging documentary) was when Daryl Davis (a black civil rights activist who befriends and gradually deradicalizes KKK members) sits down to talk with young Baltimore Black Lives Matter activists. It devolves into a bitter argument. During that argument, which occurred prior to the 2016 election, one of the BLM activists expressed hope that Trump would become president. I forget his exact words, but it was something to the effect of "at least then white supremacy will be out in the open".
 
