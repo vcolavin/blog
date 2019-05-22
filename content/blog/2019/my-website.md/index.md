@@ -1,5 +1,5 @@
 ---
-title: My homepage
+title: My Website
 date: '2019-05-21'
 description: 'An overview of vcolavin.com.'
 ---
