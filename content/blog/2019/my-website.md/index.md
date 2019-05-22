@@ -10,7 +10,7 @@ I wish the old version of my site was still available. I built it five years ago
 
 For the kind of jobs I was applying for, I didn't need to communicate serious professionalism. I needed an online place which communicates a few important pieces of information, preferrably with a memorable and sincere brand.
 
-## First, the information.
+## First, information.
 
 The core purpose of my site is to allow people to learn about me if they want to, particularly if they're a recruiter or hiring manager. I wanted someone to be able to get the key information in very few clicks, but also be able to dig deeper if they were interested.
 
@@ -24,7 +24,7 @@ The core purpose of my site is to allow people to learn about me if they want to
 
 None of this was very complicated.
 
-## Second, Branding.
+## Second, brand and style.
 
 I am, at a spiritual level, grossed the heck out by branding. I understand that organizations have a need for it, and I respect the work of the people who specialize in branding, but it I can't escape how icky it feels. One is essentially constructing a personality for an inherently apersonal object. I can't get over the feeling of being mislead.
 
@@ -40,7 +40,15 @@ I really like this picture. I think it looks funny and cute and non-threatening,
 
 And I went to Google Fonts and found a really silly and memorable sans called [Supermercado One by James Grieshaber](https://fonts.google.com/specimen/Supermercado+One). And then [Crimson Text by Sebastian Kosch](https://fonts.google.com/specimen/Crimson+Text) for the serif, which I felt looked elegant. I heard once that you're supposed pick your primary sans and serif fonts in tandem, making sure they somehow align. I'm not sure if I succeeded, because I don't know what I'm looking for. But I like the combination.
 
-And then just because I am never allowed to use default HTML colors in professional work, I chose `darkorange` as the primary brand color.
+And just because I am never allowed to use default HTML colors in professional work, I chose `darkorange` as the primary brand color.
+
+I then spent time ensuring that it was functional across a range of screen sizes. I took advantage of CSS's `calc` to make text (and thus the `rem` unit) resize smoothly according to screen width:
+
+```css
+:root {
+	font-size: calc(15px + 1.5vw);
+}
+```
 
 ## Third, the behavior.
 
@@ -59,16 +67,6 @@ I decided to scrap the cookie solution, and use the location hash to store the s
 This had the bonus of making it possible to link directly to the post-animation view. However this behavior could be confusing for non-technical or Safari users, neither of whom know that the URL has changes once the animation completes.
 
 To make it easy to replay the animation and restore the state, I added a "replay animation" button which both resets the animation and clears the location hash. This allows the user to play with the site as a toy, rather than merely being an intro animation.
-
-## Fourth
-
-And to put a nice bow on it, I spent time ensuring that it was functional across a range of screen sizes. I took advantage of CSS's `calc` to make text (and thus the `rem` unit) resize smoothly according to screen width:
-
-```css
-:root {
-	font-size: calc(15px + 1.5vw);
-}
-```
 
 ## That's it!
 
