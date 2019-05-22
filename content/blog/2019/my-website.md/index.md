@@ -44,7 +44,7 @@ And then just because I am never allowed to use default HTML colors in professio
 
 ## Third, the behavior.
 
-So I've got useful information, considered fonts, and a cute face. It was basically done!
+So I've got useful information, considered fonts, and a cute face. It was essentially done!
 
 But I'm a front-end developer, and I was inclined to add a smidgen of fun behavior to the site. This was a site, not an app, and I wanted to keep it to a minimum. Just a dash, to make it memorable. I landed on the idea of animating the text so it comes out of my face. I was inspired by Terry Gilliam, and by the personal website of one of my college housemates.
 
@@ -54,6 +54,22 @@ It worked well, but I realized that it quickly got boring and annoying. If a rep
 
 My initial solution was to provide the user with a checkbox labelled "disable animation" which, when checked, saved a cookie used to disable animation on page load. It worked fine, but felt a little awkward. It was strange to ask the user to set configuration for such a small site, and cookies felt overbuilt anyways.
 
-I decided to scrap the cookie solution, and use the location hash to store the state instead. Once the animation completes, `#welcome` is added to the hash. If `#welcome` is present on page load, the animation is skipped. This way, when the user refreshes, the default behavior is that they go directly to the content. This has the added bonus of making it possible to link directly to the post-animation view.
+I decided to scrap the cookie solution, and use the location hash to store the state instead. Once the animation completes, `#welcome` is added to the hash. If `#welcome` is present on page load, the animation is skipped. This way, when the user refreshes, the default behavior is that they go directly to the content.
+
+This had the bonus of making it possible to link directly to the post-animation view. However this behavior could be confusing for non-technical or Safari users, neither of whom know that the URL has changes once the animation completes.
 
 To make it easy to replay the animation and restore the state, I added a "replay animation" button which both resets the animation and clears the location hash. This allows the user to play with the site as a toy, rather than merely being an intro animation.
+
+## Fourth
+
+And to put a nice bow on it, I spent time ensuring that it was functional across a range of screen sizes. I took advantage of CSS's `calc` to make text (and thus the `rem` unit) resize smoothly according to screen width:
+
+```css
+:root {
+	font-size: calc(15px + 1.5vw);
+}
+```
+
+## That's it!
+
+It's a small site, but it took a few days of work to contrive and put together. It's proven useful in helping me find a job, but beyond that I hope it's enjoyable enough to use and play around with.
