@@ -32,15 +32,19 @@ I am, at a spiritual level, grossed the heck out by branding. I understand that 
 
 But these hangups don't apply so much when we're talking about personal branding, as long as one is sincere. Because then it's not so much branding as it is simply thinking about how you present yourself. Fundamentally it's no different from the process of choosing what you wear to work, or what you want to communicate through that clothing.
 
+That being said, I'm not a designer by trade. Here's what I thought as I was putting this together.
+
 I went through my Instagram archives and found this image:
 
 ![An image of my face.](./face.jpg)
 
 I really like this picture. I think it looks funny and cute and non-threatening, which is pretty important to me. I strive to reject toxic masculinity because [men are scary](https://www.youtube.com/watch?v=ENxbcvUXfnM), and I want this site to communicate that. Thus I chose this picture to take a central part of the experience.
 
-And I went to Google Fonts and found a really silly and memorable sans called [Supermercado One by James Grieshaber](https://fonts.google.com/specimen/Supermercado+One). And then [Crimson Text by Sebastian Kosch](https://fonts.google.com/specimen/Crimson+Text) for the serif, which I felt looked elegant. I heard once that you're supposed pick your primary sans and serif fonts in tandem, making sure they somehow align. I'm not sure if I succeeded, because I don't know what I'm looking for. But I like the combination.
+And I went to Google Fonts and found a really silly and memorable sans called [Supermercado One by James Grieshaber](https://fonts.google.com/specimen/Supermercado+One). And then I chose [Crimson Text by Sebastian Kosch](https://fonts.google.com/specimen/Crimson+Text) for the serif, which is lanky and elegant, especially in contrast to Supermercado One. I heard once that you're supposed pick your primary sans and serif fonts in tandem, making sure they somehow work together somehow. I'm super naive when it comes to typography, but I enjoy this combination.
 
 And just because I am never allowed to use default HTML colors in professional work, I chose `darkorange` as the primary brand color.
+
+I made the header a fairly obnoxious banner with an overstated border-radius. I heard someone say that border radius is tacky and completely _over_. If there is a renaissance in border radius I would like to take credit for it.
 
 I then spent time ensuring that it was functional across a range of screen sizes. I took advantage of CSS's `calc` to make text (and thus the `rem` unit) resize smoothly according to screen width:
 
