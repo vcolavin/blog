@@ -8,6 +8,7 @@ module.exports = {
     description: `My blog. I don't update it much.`,
     siteUrl: `https://vcolavin.com/blog`,
   },
+  pathPrefix: "/blog",
   plugins: [
     `gatsby-plugin-image`,
     {
