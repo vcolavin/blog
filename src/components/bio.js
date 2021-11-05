@@ -1,84 +1,60 @@
 /**
  * Bio component that queries for data
- * with Gatsby's StaticQuery component
+ * with Gatsby's useStaticQuery component
  *
- * See: https://www.gatsbyjs.org/docs/static-query/
+ * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
+import * as React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
-import { rhythm } from '../utils/typography';
+const Bio = () => {
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      site {
+        siteMetadata {
+          author {
+            name
+            summary
+          }
+          social {
+            twitter
+          }
+        }
+      }
+    }
+  `)
 
-function Bio() {
-	return (
-		<StaticQuery
-			query={bioQuery}
-			render={data => {
-				const {
-					author,
-					social: { github }
-				} = data.site.siteMetadata;
-				return (
-					<div
-						style={{
-							display: `flex`,
-							marginBottom: rhythm(2.5)
-						}}
-					>
-						<Image
-							fixed={data.avatar.childImageSharp.fixed}
-							alt={author}
-							style={{
-								marginRight: rhythm(1 / 2),
-								marginBottom: 0,
-								minWidth: 50,
-								borderRadius: `100%`
-							}}
-							imgStyle={{
-								borderRadius: `50%`
-							}}
-						/>
-						<div>
-							<p>
-								I'm a web developer and suicide crisis line
-								volunteer who lives in Portland Oregon, and also
-								I eat a lot of pasta. My pronouns are he/him.
-								<br />
-								<a href={github}>
-									Here's my Github profile.
-								</a>{' '}
-								<a href="https://vcolavin.wordpress.com">
-									Here's my archived blog.
-								</a>
-							</p>
-						</div>
-					</div>
-				);
-			}}
-		/>
-	);
+  // Set these values by editing "siteMetadata" in gatsby-config.js
+  const { author } = data.site.siteMetadata
+
+  return (
+    <div className="bio">
+      <StaticImage
+        className="bio-avatar"
+        layout="fixed"
+        formats={["auto", "webp", "avif"]}
+        src="../images/profile-pic.jpg"
+        width={50}
+        height={50}
+        quality={95}
+        alt="Profile picture"
+      />
+      {author?.name && (
+        <p>
+          I'm Vincent, a web developer who lives in San Diego, and also I eat a
+          lot of pasta. My pronouns are he/him.
+          <br />
+          <a href="https://github.com/vcolavin">Here's my Github profile.</a>
+          <br />
+          <a href="https://vcolavin.wordpress.com">
+            Here's my old archived blog.
+          </a>
+        </p>
+      )}
+    </div>
+  )
 }
 
-const bioQuery = graphql`
-	query BioQuery {
-		avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-			childImageSharp {
-				fixed(width: 50, height: 50) {
-					...GatsbyImageSharpFixed
-				}
-			}
-		}
-		site {
-			siteMetadata {
-				author
-				social {
-					github
-				}
-			}
-		}
-	}
-`;
-
-export default Bio;
+export default Bio
