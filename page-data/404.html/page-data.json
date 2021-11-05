@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-pages-404-js","path":"/404.html","webpackCompilationHash":"65f013487b7139566e41","result":{"data":{"site":{"siteMetadata":{"title":"vcolavin"}}},"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+    "componentChunkName": "component---src-pages-404-js",
+    "path": "/404.html",
+    "result": {"data":{"site":{"siteMetadata":{"title":"vcolavin"}}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383"]}
