@@ -6,7 +6,7 @@ description: "Truth is like a diamond."
 
 I don't want to lie or mislead. I want the things I say to be true. I don't think this is a virtue, just a preoccupation.
 
-I remember a mother's day when I was 4 or 5 years old. I refused to tell my mom she was the best mom in the world. I had been told it was the expected thing to say, but I couldn't do it. It wouldn't have been honest. I was confident she was a very good mom, but I didn't want to say that she was the best out of all of them. I hadn't met all the moms in the world. She deserved better than an frivolous platitude. I gave her the best truth I had.
+I remember a mother's day when I was 4 or 5 years old. I refused to tell my mom she was the best mom in the world. I had been told it was the expected thing to say, but I couldn't do it. It wouldn't have been honest. I was confident she was a very good mom, but I didn't want to say that she was the best out of all of them. I hadn't met all the moms in the world. She deserved better than frivolous platitudes, so I gave her the best truth I had.
 
 In hindsight, I was precocious but not insightful. I had only a shallow understanding of the words, a shallow version of truth.
 
@@ -34,7 +34,7 @@ Except for this one time.
 
 I like to fidget. I have fidget toys on my desk, but I'm happy with clicking pens or chapstick caps or bouncing my knee. Still, I'm often on the lookout for new fidget toys. I saw some videos of elemental gallium, and I thought to myself it could be pretty cool toy.
 
-Gallium is a metal with the second lowest melting point, after mercury. Unlike mercury, it's fairly benign and won't kill you. It's a solid at room temperature but can melt in the palm of your hand, which is really cool. I bought myself 100 grams of it, because I thought it would be a good fidget toy. It turns out liquids don't make good fidgets.
+Gallium is a metal with the second lowest melting point, after mercury. Unlike mercury, it's fairly benign and won't kill you. It's a solid at room temperature but can melt in the palm of your hand, which is really cool. I bought myself 100 grams of it, because I thought it would be a good fidget toy. Side note: it turns out liquids don't make good fidgets. It's a cool toy though, but it takes too much attention to manage.
 
 Besides its low melting point, gallium has another interesting property: it readily amalgamates with aluminum at room temperature. In other words, it soaks into aluminum and destroys it.
 
