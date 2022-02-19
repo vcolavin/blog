@@ -1,7 +1,7 @@
 ---
 title: Shortcuts I use a lot
 date: "2022-02-19"
-description: "They're not critical, but they're extremely useful"
+description: "They're not critical, but they are extremely useful."
 ---
 
 For most developers, the practice of software development is, at a basic level, typing. There are other ways of interacting with the computer, such as voice recognition software, which can be especially useful for disabled people. I am not an expert in that, though, so I will focus on the keyboard.
@@ -114,5 +114,5 @@ I could write a whole series of articles on the importance of tab navigation, in
 | `cmd + shift + [`        | move one tab left                             |
 | `cmd + shift + ]`        | move one tab right                            |
 | `cmd + left/right arrow` | go back/forward                               |
-| `cmd + shift + i`        | open/close dev tools                          |
+| `cmd + option + i`       | open/close dev tools                          |
 | `escape` (in dev tools)  | open/close JS console                         |
