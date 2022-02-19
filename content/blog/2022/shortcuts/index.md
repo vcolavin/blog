@@ -4,7 +4,7 @@ date: "2022-02-19"
 description: "They're not critical, but they're extremely useful"
 ---
 
-For most developers, the practice of software development is, at a fundamental level, typing. There are alternative ways of interacting with the computer, such as voice recognition software, which can be especially useful for disabled people. I am not an expert in that, so I will focus on the keyboard.
+For most developers, the practice of software development is, at a basic level, typing. There are alternative ways of interacting with the computer, such as voice recognition software, which can be especially useful for disabled people. I am not an expert in that, so I will focus on the keyboard.
 
 So while programming _is_ typing, typing is not most the _point_ of programming. As such, many developers learn to interact efficiently with computers via keyboard shortcuts, bypassing the mouse as much as possible. This may seem like a marginal and pointless task at first (it did to me!), but building flow and fluency with the medium becomes more valuable over time.
 
@@ -23,7 +23,7 @@ Note: Sometimes, adding shift to a shortcut chord will do the shortcut in the op
 | Shortcut        | Description                                                |
 | --------------- | ---------------------------------------------------------- |
 | `cmd + tab`     | Switch apps. Hold down `cmd` and tap `tab` to keep moving. |
-| `tab`           | Move focus to next focusable element in the browser        |
+| `cmd + space`   | Open Spotlight search                                      |
 | `cmd + p`       | Open fuzzy finder in VSCode                                |
 | `up/down arrow` | Move through command history in terminal                   |
 
