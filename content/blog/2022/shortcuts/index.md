@@ -12,7 +12,9 @@ If you are a new programmer, do not try to learn and incorporate all of these at
 
 Real quick glossary, the key combinations that make up a shortcut can be called _chords_, which I think sounds cool. And if holding down a key modifies the behavior of another key or chord, it is called a _modifier key_. The shift key is a modifier that everyone knows; it turns lower case letters into upper case letters.
 
-I will start with a list of the most useful that you can get started with right away, and then delve into an exhaustive list. Note that these are the shortcuts that work out of the box on a fresh install. I also use some custom shortcuts for specific programming tasks that I will not list here. I tend to prefer doing shortcuts with just my left hand, so sometimes I'll remap an existing shortcut to enable that. For example, `cmd + p` in VSCode opens the fuzzy finder, but I've remapped it to `cmd + t`.
+I will start with a list of the most useful that you can get started with right away, and then delve into an exhaustive list. Note that these are the shortcuts that work out of the box on a fresh install of MacOS. A lot of them will work for Windows as well, replacing command with the Windows key or control.
+
+I also use some custom shortcuts for specific programming tasks that I will not list here. I tend to prefer doing shortcuts with just my left hand, so sometimes I'll remap an existing shortcut to enable that. For example, `cmd + p` in VSCode opens the fuzzy finder, but I've remapped it to `cmd + t`.
 
 Note: Sometimes, adding shift to a shortcut chord will do the shortcut in the opposite direction. For example, `cmd + tab` selects the next application, and `cmd + shift + tab` selects the previous application. I won't list this shift modifier exhaustively.
 
