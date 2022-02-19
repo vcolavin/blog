@@ -4,9 +4,9 @@ date: "2022-02-19"
 description: "They're not critical, but they're extremely useful"
 ---
 
-For most developers, the practice of software development is, at a basic level, typing. There are alternative ways of interacting with the computer, such as voice recognition software, which can be especially useful for disabled people. I am not an expert in that, so I will focus on the keyboard.
+For most developers, the practice of software development is, at a basic level, typing. There are other ways of interacting with the computer, such as voice recognition software, which can be especially useful for disabled people. I am not an expert in that, though, so I will focus on the keyboard.
 
-So while programming _is_ typing, typing is not most the _point_ of programming. As such, many developers learn to interact efficiently with computers via keyboard shortcuts, bypassing the mouse as much as possible. This may seem like a marginal and pointless task at first (it did to me!), but building flow and fluency with the medium becomes more valuable over time.
+So while programming _is_ typing, typing is not the _point_ of programming. As such, many developers learn to interact efficiently with computers via keyboard shortcuts, bypassing the mouse as much as possible. This may seem like a marginal and pointless task at first (it did to me!), but building flow and fluency with the medium becomes more valuable over time.
 
 If you are a new programmer, do not try to learn and incorporate all of these at once! It took years for me to add these to my repertoire, and I am still learning.
 
