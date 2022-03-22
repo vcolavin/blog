@@ -1,0 +1,81 @@
+---
+title: Simple Front-end Environment Setup Guide
+date: "2022-03-22"
+description: "An opinionated step-by-step guide to a simple professional-grade front-end development environment for MacOS."
+---
+
+Hello! This is a companion guide to a YouTube video I am making. I will update this post with the link once it's available.
+
+This post will be a pretty straightforward reference; I won't elaborate or justify my choices here like I do in the video.
+
+You don't have to do all of this, or in this order, but I have chosen this to minimize ambiguity while still setting you up with a good
+
+## Table of Contents
+
+- Install and configure Firefox
+- Install uBlock Origin
+- Install Chrome
+- Install VSCode
+- Install Prettier extension
+- Open Terminal
+- Install Homebrew
+- Install nvm
+- Configure zsh with .zshrc
+- Install Node
+- Install create-react-app
+- Open VSCode
+
+## Install and configure Firefox
+
+- Visit [https://www.mozilla.org/en-US/firefox/new/](https://www.mozilla.org/en-US/firefox/new/) to download and install Firefox.
+
+- Open System Preferences. You can open System Preferences by clicking the apple logo at the top left of your screen, or using Spotlight Search.
+
+- Open the "General" preferences.
+
+- Select Firefox as your default browser.
+
+![A screenshot of general system preferences, with Firefox as the default.](./default_browser.png)
+
+- Go back and open the keyboard settings in System Preferences.
+
+- Move the key repeat and delay until repeat sliders all the way to the right.
+
+![A screenshot of the keyboard settings with sliders moved all the way to the right.](./key_repeat.png)
+
+- Go to the shortcuts tab and enable keyboard navigation.
+
+![A screenshot of the keyboard settings shortcuts tab, with keyboard navigation enabled](./keyboard_navigation.png)
+
+## Install uBlock Origin
+
+[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
+## Install Chrome
+
+- Visit (https://www.google.com/chrome/)[https://www.google.com/chrome/].
+
+- Download and install Chrome.
+
+## Install VSCode
+
+## Install Prettier extension
+
+## Open and configure Terminal
+
+- Terminal can be a little difficult to look at. Here’s how you can modify it.
+- Cmd + , to open settings
+- I like this default theme, but you’ll find you can poke around with it a lot.
+- And also let’s make it so that opening a new tab brings you to the same spot.
+
+## Install Homebrew
+
+## Install nvm
+
+## Configure zsh with .zshrc
+
+## Install Node
+
+## Install create-react-app
+
+## Open VSCode
