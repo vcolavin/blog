@@ -18,16 +18,13 @@ const Bio = () => {
             name
             summary
           }
-          social {
-            twitter
-          }
         }
       }
     }
   `)
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
-  const { author } = data.site.siteMetadata
+  const author = data.site.siteMetadata?.author
 
   return (
     <div className="bio">
@@ -43,8 +40,8 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          I'm Vincent, a web developer who lives in San Diego, and also I eat a
-          lot of pasta. My pronouns are he/him.
+          I'm Vincent, a web developer in San Diego. I eat a lot of pasta. My
+          pronouns are he/him.
           <br />
           <a href="https://github.com/vcolavin">Here's my Github profile.</a>
           <br />
