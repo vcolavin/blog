@@ -1,5 +1,22 @@
 /* CSS Custom Properties Definitions */
 
+.accordion__button {
+  position: relative;
+}
+
+.accordion__button::before {
+  content: ">";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+
+.accordion__button[aria-expanded="true"]::before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
