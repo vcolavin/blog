@@ -1,7 +1,7 @@
 ---
-title: Simple Front-end Environment Setup Guide
+title: Simple MacOS Front-end Environment Setup Guide
 date: "2022-03-22"
-description: "An opinionated step-by-step guide to a simple professional-grade front-end development environment for MacOS."
+description: "An opinionated step-by-step guide to a simple but professional-grade front-end development environment for MacOS."
 ---
 
 Hello! This is a companion guide to a YouTube video I am making. I will update this post with the link once it's available.
@@ -10,7 +10,7 @@ This post will be a pretty straightforward reference; I won't elaborate or justi
 
 You don't have to do all of this, or in this order, but I have chosen this to minimize ambiguity while still setting you up for success.
 
-Each of the following sections can be maximized.
+Click each of the following sections to maximize them.
 
 <Accordion allowMultipleExpanded allowZeroExpanded>
   <AccordionItem>
@@ -50,7 +50,7 @@ Each of the following sections can be maximized.
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
-      <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/</a>
+      Visit <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/</a> to download and install uBlock Origin.
     </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
@@ -60,10 +60,9 @@ Each of the following sections can be maximized.
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
-      <ul>
-        <li>Visit <a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a>.</li>
-        <li>Download and install Chrome.</li>
-      </ul>
+      <p>
+        Visit <a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a>. Download and install Chrome. Do <em>not</em> set it as your default browser.
+      </p>
     </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
@@ -72,15 +71,8 @@ Each of the following sections can be maximized.
         <h3>Install VSCode</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
-  </AccordionItem>
-  <AccordionItem>
-    <AccordionItemHeading>
-      <AccordionItemButton>
-        <h3>Install Prettier extension</h3>
-      </AccordionItemButton>
-    </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>
+      Visit <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> to install VSCode.</AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -90,10 +82,10 @@ Each of the following sections can be maximized.
     </AccordionItemHeading>
     <AccordionItemPanel>
       <ul>
-        <li>Terminal can be a little difficult to look at. Here's how you can modify it.</li>
-        <li>Cmd + , to open settings</li>
-        <li>I like this default theme, but you'll find you can poke around with it a lot.</li>
-        <li>And also let's make it so that opening a new tab brings you to the same spot.</li>
+        <li>Open Terminal from Spotlight search by pressing the command key and space bar at the same time, then typing "Terminal". Then press enter to open it.</li>
+        <li>Press the command and comma keys at the same to open settings</li>
+        <li>Select the profiles tab.</li>
+        <li>Select a theme you like, and make it the default.</li>
       </ul>
     </AccordionItemPanel>
   </AccordionItem>
@@ -103,7 +95,9 @@ Each of the following sections can be maximized.
         <h3>Install Homebrew</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>
+      Visit <a href="https://brew.sh/">https://brew.sh/</a> and copy the installation script. Paste it in terminal and press enter.
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -111,7 +105,7 @@ Each of the following sections can be maximized.
         <h3>Install nvm</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>Visit <a href="https://github.com/nvm-sh/nvm#installing-and-updating">https://github.com/nvm-sh/nvm</a> and copy the install script. Paste it in terminal and press enter.</AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -119,7 +113,15 @@ Each of the following sections can be maximized.
         <h3>Configure zsh with .zshrc</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>
+      <ul>
+        <li>Type <code>code ~/.zshrc</code> into Terminal and press enter. This will open a file that allows you to configure the shell.</li>
+        <li>If this isn't already there, add the following code:
+          <br/>
+          <code>export</code>
+        </li>
+      </ul>
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -133,6 +135,14 @@ Each of the following sections can be maximized.
     <AccordionItemHeading>
       <AccordionItemButton>
         <h3>Install create-react-app</h3>
+      </AccordionItemButton>
+    </AccordionItemHeading>
+    <AccordionItemPanel>content</AccordionItemPanel>
+  </AccordionItem>
+    <AccordionItem>
+    <AccordionItemHeading>
+      <AccordionItemButton>
+        <h3>Install Prettier extension</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>content</AccordionItemPanel>
