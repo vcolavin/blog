@@ -68,31 +68,44 @@ Click each of the following sections to maximize them.
   <AccordionItem>
     <AccordionItemHeading>
       <AccordionItemButton>
-        <h3>Install VSCode</h3>
+        <h3>Install and configure VSCode</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
       <ul>
         <li>Visit <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> to install VSCode.</li>
-        <li>Once it is open, install the Prettier extension and set it as your formatter. Also, format on save.</li>
+        <li>Once it is installed, install the Prettier extension by clicking the four square icon on the left sidebar and searching for Prettier.</li>
+        <li>Open settings by pressing the command and comma keys at the same time.</li>
+        <li>Search for "formatter" in the settings search, then set Prettier as your default formatter.</li>
+        <li>Select the "format on save" option.</li>
       </ul>
     </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
       <AccordionItemButton>
-        <h3>Open and configure your your shell</h3>
+        <h3>Configure shell and install XCode</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
       <ul>
-        <li>Open Terminal from Spotlight search by pressing the command key and space bar at the same time, then typing "Terminal". Then press enter to open it.</li>
-        <li>run <code>code ~/.zshrc</code></li>
-        <li>add <code>which -s code && export EDITOR="code --wait"</code></li>
-        <li>Install XCode with <code>xcode-select --install</code></li>
+        <li>Open Terminal. You can do this from Spotlight search by pressing the command key and space bar at the same time, then typing "Terminal". Then press enter to open it.</li>
+        <li>Run <code>code ~/.zshrc</code></li>
+        <li>In VSCode, add <code>which -s code && export EDITOR="code --wait"</code> to the opened .zshrc file and save it. </li>
       </ul>
     </AccordionItemPanel>
-
+  </AccordionItem>
+    <AccordionItem>
+    <AccordionItemHeading>
+      <AccordionItemButton>
+        <h3>Install XCode</h3>
+      </AccordionItemButton>
+    </AccordionItemHeading>
+    <AccordionItemPanel>
+      <ul>
+        <li>From Terminal, install XCode with the command <code>xcode-select --install</code>.</li>
+      </ul>
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -101,7 +114,8 @@ Click each of the following sections to maximize them.
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
-      Visit <a href="https://brew.sh/">https://brew.sh/</a> and copy the installation script. Paste it in terminal and press enter.
+      <p>Visit <a href="https://brew.sh/">https://brew.sh/</a> and copy the installation script. Paste it in terminal and press enter. Follow the instructions that appear on the terminal.</p>
+      <p>Type <code>brew -v</code> to confirm Homebrew has been installed.</p>
     </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
@@ -110,7 +124,10 @@ Click each of the following sections to maximize them.
         <h3>Install nvm</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>Visit <a href="https://github.com/nvm-sh/nvm#installing-and-updating">https://github.com/nvm-sh/nvm</a> and copy the install script. Paste it in terminal and press enter.</AccordionItemPanel>
+    <AccordionItemPanel>
+      <p>Visit <a href="https://github.com/nvm-sh/nvm#installing-and-updating">https://github.com/nvm-sh/nvm</a> and copy the first install script. Paste it in terminal and press enter.</p>
+      <p>Type <code>nvm -v</code> to confirm that it has been installed.</p>
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -145,7 +162,7 @@ Click each of the following sections to maximize them.
           <li><code>code .</code></li>
           <li><code>npm start</code></li>
         </ul>
-        <p>This will open your browser with your first React project.</p>
+        <p>This will open your browser with your first React project. If you edit and save <code>App.js</code> in VSCode, the changes will appear in your browser! </p>
       </div>
     </AccordionItemPanel>
   </AccordionItem>
