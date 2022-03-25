@@ -6,9 +6,9 @@ description: "An opinionated step-by-step guide to a simple but professional-gra
 
 Hello! This is a companion guide to a YouTube video I am making. I will update this post with the link once it's available.
 
-This post will be a pretty straightforward reference; I won't elaborate or justify my choices here like I do in the video.
+This post will be a pretty straightforward reference; I won't elaborate on or justify my choices here like I do in the video.
 
-You don't have to do all of this, or in this order, but I have chosen this to minimize ambiguity while still setting you up for success.
+This is an opinionated guide; you're not obliged to do everything on this list, or necessarily in order. I have chosen these steps in this way to minimize ambiguity, while still setting you up for success.
 
 Click each of the following sections to maximize them.
 
@@ -72,22 +72,27 @@ Click each of the following sections to maximize them.
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
-      Visit <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> to install VSCode.</AccordionItemPanel>
+      <ul>
+        <li>Visit <a href="https://code.visualstudio.com">https://code.visualstudio.com</a> to install VSCode.</li>
+        <li>Once it is open, install the Prettier extension and set it as your formatter. Also, format on save.</li>
+      </ul>
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
       <AccordionItemButton>
-        <h3>Open and configure Terminal</h3>
+        <h3>Open and configure your your shell</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
     <AccordionItemPanel>
       <ul>
         <li>Open Terminal from Spotlight search by pressing the command key and space bar at the same time, then typing "Terminal". Then press enter to open it.</li>
-        <li>Press the command and comma keys at the same to open settings</li>
-        <li>Select the profiles tab.</li>
-        <li>Select a theme you like, and make it the default.</li>
+        <li>run <code>code ~/.zshrc</code></li>
+        <li>add <code>which -s code && export EDITOR="code --wait"</code></li>
+        <li>Install XCode with <code>xcode-select --install</code></li>
       </ul>
     </AccordionItemPanel>
+
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -110,26 +115,12 @@ Click each of the following sections to maximize them.
   <AccordionItem>
     <AccordionItemHeading>
       <AccordionItemButton>
-        <h3>Configure zsh with .zshrc</h3>
-      </AccordionItemButton>
-    </AccordionItemHeading>
-    <AccordionItemPanel>
-      <ul>
-        <li>Type <code>code ~/.zshrc</code> into Terminal and press enter. This will open a file that allows you to configure the shell.</li>
-        <li>If this isn't already there, add the following code:
-          <br/>
-          <code>export</code>
-        </li>
-      </ul>
-    </AccordionItemPanel>
-  </AccordionItem>
-  <AccordionItem>
-    <AccordionItemHeading>
-      <AccordionItemButton>
         <h3>Install Node</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>
+      In the terminal, write <code>nvm install --lts</code> and press enter.
+    </AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
@@ -137,22 +128,27 @@ Click each of the following sections to maximize them.
         <h3>Install create-react-app</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
-  </AccordionItem>
-    <AccordionItem>
-    <AccordionItemHeading>
-      <AccordionItemButton>
-        <h3>Install Prettier extension</h3>
-      </AccordionItemButton>
-    </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>In terminal, write <code>npm i -g create-react-app</code> and press enter.</AccordionItemPanel>
   </AccordionItem>
   <AccordionItem>
     <AccordionItemHeading>
       <AccordionItemButton>
-        <h3>Open VSCode</h3>
+        <h3>Create and run your React project</h3>
       </AccordionItemButton>
     </AccordionItemHeading>
-    <AccordionItemPanel>content</AccordionItemPanel>
+    <AccordionItemPanel>
+      <div>
+        <p>Run these commands in order:</p>
+        <ul>
+          <li><code>create-react-app your-app-name</code></li>
+          <li><code>cd your-app-name</code></li>
+          <li><code>code .</code></li>
+          <li><code>npm start</code></li>
+        </ul>
+        <p>This will open your browser with your first React project.</p>
+      </div>
+    </AccordionItemPanel>
   </AccordionItem>
 </Accordion>
+
+That should do it! Please let me know if you encounter any errors or inconsistences in these instructions.
